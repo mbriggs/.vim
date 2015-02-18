@@ -20,7 +20,6 @@ set softtabstop=2                   " auto tabs are 2 spaces
 set expandtab                       " spaces instead of tabs
 set list listchars=tab:\ \ ,trail:· " show leading and trailings spaces/tabs
 set encoding=utf-8                  " default encoding to utf-8
-set number                          " line numbers
 set ruler                           " cursor position in modeline
 syntax on                           " syntax highlighting
 set novisualbell                    " turn off blinking

@@ -14,5 +14,8 @@ install_complete:
 install_vundle:
 	git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
+build_cmdt:
+	cd ~/.vim/bundle/command-t/ruby/command-t && ruby extconf.rb && make
+
 vundle:
 	vim +PluginInstall +qall
