@@ -27,6 +27,8 @@ Plugin 'valloric/youcompleteme'
 Plugin 'shougo/unite.vim'
 Plugin 'shougo/vimfiler.vim'
 Plugin 't9md/vim-surround_custom_mapping'
+Plugin 'sodapopcan/vim-twiggy'
+Plugin 'tmux-plugins/vim-tmux'
 
 call vundle#end()
 filetype plugin indent on 
