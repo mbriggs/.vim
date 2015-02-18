@@ -19,6 +19,11 @@ Plugin 'tpope/vim-dispatch'
 Plugin 'tpope/vim-commentary'
 Plugin 'mustache/vim-mode'
 Plugin 'airblade/vim-rooter'
+Plugin 'mhinz/vim-startify'
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'
+Plugin 'henrik/vim-indexed-search'
+Plugin 'valloric/youcompleteme'
 
 call vundle#end()
 filetype plugin indent on 

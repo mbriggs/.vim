@@ -1,4 +1,4 @@
-install: directories links install_vundle vundle install_complete
+install: directories links install_vundle vundle build_cmdt build_ycm install_complete
 
 directories:
 	mkdir -p backup
@@ -16,6 +16,9 @@ install_vundle:
 
 build_cmdt:
 	cd ~/.vim/bundle/command-t/ruby/command-t && ruby extconf.rb && make
+
+build_ycm:
+	cd ~/.vim/bundle/YouCompleteMe && ./install.sh
 
 vundle:
 	vim +PluginInstall +qall
