@@ -32,3 +32,4 @@ set confirm                               " confirm save when leaving unsaved bu
 set foldlevelstart=99                     " turn off default folding
 set wildignore+=.git,.hg,node_modules,tmp " dont search these places
 set clipboard=unnamed                     " use system clipboard
+set background=dark                       " use dark bg
