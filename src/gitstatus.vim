@@ -9,3 +9,13 @@ let g:signify_cursorhold_normal        = 1
 highlight SignifySignAdd    ctermfg=28  ctermbg=bg cterm=NONE
 highlight SignifySignChange ctermfg=24  ctermbg=bg cterm=NONE
 highlight SignifySignDelete ctermfg=167 ctermbg=bg cterm=NONE
+highlight SignColumn        ctermbg=bg  cterm=NONE
+
+augroup sign-column
+  autocmd!
+  autocmd BufEnter * call s:force_sign_col()
+  function! s:force_sign_col()
+    sign define dummy
+    execute 'sign place 9999 line=1 name=dummy buffer=' . bufnr('')
+  endfunction
+augroup END
