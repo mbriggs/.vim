@@ -26,6 +26,7 @@ Plugin 'henrik/vim-indexed-search'
 Plugin 'valloric/youcompleteme'
 Plugin 'shougo/unite.vim'
 Plugin 'shougo/vimfiler.vim'
+Plugin 't9md/vim-surround_custom_mapping'
 
 call vundle#end()
 filetype plugin indent on 

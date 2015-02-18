@@ -20,6 +20,9 @@ inoremap <c-s-j> <esc>Ji
 " duplicate line
 nnoremap <c-d> mpyyp`p
 
+" save
+map <c-s> :w<cr>
+
 " duplicate selection
 vnoremap <c-d> mpy`>p`p
 

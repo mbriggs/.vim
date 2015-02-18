@@ -1,6 +1,7 @@
 nnoremap <c-t> :CommandT<CR>
 inoremap <c-t> <esc>:CommandT<CR>
 nnoremap b :CommandTBuffer<cr>
+let g:CommandTCancelMap = ['<ESC>', '<C-c>']
 let g:CommandTMaxFiles=80000
 let g:CommandTMaxDepth=25
 let g:CommandTMatchWindowAtTop=1
