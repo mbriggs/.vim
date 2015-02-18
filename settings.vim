@@ -46,3 +46,6 @@ let g:signify_cursorhold_normal        = 1
 highlight SignifySignAdd    ctermfg=28  ctermbg=bg cterm=NONE
 highlight SignifySignChange ctermfg=24  ctermbg=bg cterm=NONE
 highlight SignifySignDelete ctermfg=167 ctermbg=bg cterm=NONE
+
+let g:rooter_use_lcd = 1
+let g:rooter_change_directory_for_non_project_files = 1

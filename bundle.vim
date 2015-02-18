@@ -17,6 +17,8 @@ Plugin 'mhinz/vim-signify'
 Plugin 'sjl/vitality.vim'
 Plugin 'tpope/vim-dispatch'
 Plugin 'tpope/vim-commentary'
+Plugin 'mustache/vim-mode'
+Plugin 'airblade/vim-rooter'
 
 call vundle#end()
 filetype plugin indent on 
