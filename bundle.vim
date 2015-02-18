@@ -24,6 +24,8 @@ Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'
 Plugin 'henrik/vim-indexed-search'
 Plugin 'valloric/youcompleteme'
+Plugin 'shougo/unite.vim'
+Plugin 'shougo/vimfiler.vim'
 
 call vundle#end()
 filetype plugin indent on 
