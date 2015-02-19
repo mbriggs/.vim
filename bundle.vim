@@ -29,6 +29,7 @@ Plugin 't9md/vim-surround_custom_mapping'
 Plugin 'sodapopcan/vim-twiggy'
 Plugin 'tmux-plugins/vim-tmux'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'dbakker/vim-projectroot'
 
 call vundle#end()
 filetype plugin indent on 
