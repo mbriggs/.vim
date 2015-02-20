@@ -34,7 +34,8 @@ Plugin 'tpope/vim-eunuch'
 Plugin 'tpope/vim-rake'
 Plugin 'tpope/vim-projectionist'
 Plugin 'tpope/vim-rails'
-Plugin 'rking/ag.vim'
+Plugin 'vim-scripts/cmdalias.vim'
+Plugin 'derekwyatt/ag.vim'
 
 call vundle#end()
 filetype plugin indent on 

@@ -9,5 +9,4 @@ if filereadable($HOME . "/.vim/.plugins_installed")
   endfor
 
   source $HOME/.vim/settings.vim
-  source $HOME/.vim/after.vim
 endif
