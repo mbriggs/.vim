@@ -45,9 +45,10 @@ nmap <C-\> :tnext<CR>
 " jump to matching pair
 nnoremap <space><space> %
 
-" jumplist
-nmap <left> g;
-nmap <right> g,
+nmap <right> :lnext<cr>
+nmap <left> :lprevious<cr>
+nmap <down> :cnext<cr>
+nmap <up> :cprevious<cr>
 
 "c-backspace to delete word
 imap <C-BS> <C-W>
