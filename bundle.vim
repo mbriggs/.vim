@@ -36,6 +36,9 @@ Plugin 'tpope/vim-projectionist'
 Plugin 'tpope/vim-rails'
 Plugin 'vim-scripts/cmdalias.vim'
 Plugin 'derekwyatt/ag.vim'
+Plugin 'vim-scripts/nginx.vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 call vundle#end()
 filetype plugin indent on 

@@ -17,6 +17,7 @@ set nowrap                                " turn off line wrapping
 set tabstop=2                             " tabs are 2 spaces
 set shiftwidth=2                          " >> goes 2 spaces
 set softtabstop=2                         " auto tabs are 2 spaces
+set autoread                              " load file if it changed on disk
 set expandtab                             " spaces instead of tabs
 set list listchars=tab:\ \ ,trail:.       " show leading and trailings spaces/tabs
 set encoding=utf-8                        " default encoding to utf-8
@@ -34,3 +35,4 @@ set wildignore+=.git,.hg,node_modules,tmp " dont search these places
 set clipboard=unnamed                     " use system clipboard
 set background=dark                       " use dark bg
 set timeoutlen=1000 ttimeoutlen=0         " fix esc delay
+set shell=zsh\ -l
