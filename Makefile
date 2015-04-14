@@ -5,7 +5,7 @@ directories:
 	mkdir -p bundle
 
 links:
-	ln -sf $(HOME)/.vim/vimrc $(HOME)/.vimrc
+	ln -sf vimrc ../.vimrc
 
 install_complete:
 	touch .plugins_installed

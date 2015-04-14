@@ -8,7 +8,6 @@ set statusline+=%m      "modified flag
 set statusline+=\ \ \ %{FileSize()}
 
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 set statusline+=%=      "left/right separator
